@@ -1,4 +1,6 @@
 package io.ionic.starter;
+import android.os.Bundle;
+
 import com.getcapacitor.BridgeActivity;
 import com.hemangkumar.capacitorgooglemaps.CapacitorGoogleMaps;
 

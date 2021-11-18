@@ -28,7 +28,12 @@ export class HomePage {
       height: Math.round(boundingRect.height),
       x: Math.round(boundingRect.x),
       y: Math.round(boundingRect.y),
-      zoom: 2
+      zoom: 2,
+
+
+      latitude:53.3498, // you can get the location and add the latitude
+      longitude:6.2603 // you can get the location and add the longitude
+
     });
 
     CapacitorGoogleMaps.addListener('onMapReady', async () => {
